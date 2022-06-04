@@ -3,15 +3,16 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int main (void)
+int main(void)
 {
 	char c;
 
-	for (c= 'a'; c<= 'z'; c++)
-		putchar("%c ",i);
-		putchar('\n')
+	for (c= 'a''; c<= 'z'; c++)
+		putchar(c);
+
+	putchar('\n');
 
 	return (0);
 }
