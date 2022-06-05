@@ -10,7 +10,7 @@ int main(void)
 {
 	int digit;
 
-	for ( digit = 0; digit <= 9; digit++)
+	for (digit = 0; digit <= 9; digit++)
 	{
 
 		putchar(digit % 10 + '0');
@@ -23,5 +23,5 @@ int main(void)
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
