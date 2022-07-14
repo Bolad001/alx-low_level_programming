@@ -6,7 +6,7 @@
 * main - check the code.
 *
 *_islower - checks for lowercase character
-* 
+*
 * Return: Always 0.
 *
 * Return: 1 for lowercase character. 0 for the rest.
