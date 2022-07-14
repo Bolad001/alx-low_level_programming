@@ -2,8 +2,8 @@
 
 
 
-/*
-*_islower - _islower - Shows 1 if the input is a
+/**
+*_islower - Shows 1 if the input is a
 * lowercase character. Another cases, shows
 * 0
 *
