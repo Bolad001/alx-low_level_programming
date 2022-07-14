@@ -3,13 +3,13 @@
 
 
 /*
-* main - check the code.
+*_islower - _islower - Shows 1 if the input is a
+* lowercase character. Another cases, shows
+* 0
 *
-*_islower - checks for lowercase character
+* @c: The character in ASCII code
 *
-* Return: Always 0.
-*
-* Return: 1 for lowercase character. 0 for the rest.
+*  Return: 1 for lowercase character. 0 for the rest.
 */
 
 int _islower(int c)
