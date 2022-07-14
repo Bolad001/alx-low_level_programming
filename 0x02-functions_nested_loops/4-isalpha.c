@@ -2,7 +2,7 @@
 
 
 
-/*
+/**
  * _isalpha - A function that check for alphabetic character
  * letter Another cases, shows 0
  * @c: The character in ASCII code
