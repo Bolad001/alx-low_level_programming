@@ -3,7 +3,7 @@
 
 
 /*
- * _isalpha - Shows 1 if the input is a
+ * _isalpha - A function that check for alphabetic character
  * letter Another cases, shows 0
  * @c: The character in ASCII code
  * Return: 1 for letters. 0 for the rest.
