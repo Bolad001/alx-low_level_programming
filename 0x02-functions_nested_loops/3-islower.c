@@ -6,7 +6,7 @@
 * main - check the code.
 *
 * Return: Always 0.
-*
+* _islower - Shows 1 if the input is a
 */
 
 int _islower(int c)
