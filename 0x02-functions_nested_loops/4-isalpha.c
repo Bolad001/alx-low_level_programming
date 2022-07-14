@@ -11,7 +11,7 @@
 */
 
 int _isalpha(int c)
-	int c;
+
 
 {
 
