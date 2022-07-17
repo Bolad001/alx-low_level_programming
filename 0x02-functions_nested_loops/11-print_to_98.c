@@ -2,12 +2,13 @@
 
 /**
  * add - a function that add two integers and returns the result
- * @num 1: first number input
- * @num 2: second number input
+ * @one: first number input
+ * @two: second number input
+ * return: one + two
  */
 
-int add(int numb, int num)
+int add(int one, int two)
 {
-	return (numb + num);
+	return (one + two);
 }
 			
