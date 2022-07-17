@@ -6,7 +6,7 @@
  *
  * Return: value of the last digit
  */
-int print_last_digit(int ld )
+int print_last_digit(int ld)
 {
 	int d;
 
@@ -14,10 +14,10 @@ int print_last_digit(int ld )
 
 	if (d < 0)
 	{
-		d = (-1 *d);
+		d = (-1 * d);
 	}
 	_putchar(d + '0');
-	return (d);	
+	return (d);
 
 
 }
