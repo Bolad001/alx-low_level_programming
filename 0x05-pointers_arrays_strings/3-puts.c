@@ -14,10 +14,10 @@ void _puts(char *str)
 		for (x = 0; str[x] == '\0'; x++)
 		{
 
-			_putchar('\n');
-			break;
-		}
-
 			_putchar(str[x]);
+
+		}
+			_putchar('\n');
+		
 
 }
