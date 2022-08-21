@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	for (x = 0; x >= 0; x++)
 	{
-		if (s[y] == '\0')
+		if (*s[y] == '\0')
 		{
 			_putchar('\n');
 			break;
