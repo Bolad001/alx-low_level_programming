@@ -17,7 +17,7 @@ void print_rev(char *s)
 			_putchar('\n');
 			break;
 		}
-		y = y - 1;
+		y = *s - 1;
 
 		while (y >= 0)
 		{
