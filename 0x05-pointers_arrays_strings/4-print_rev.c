@@ -14,7 +14,6 @@ void print_rev(char *s)
 	{
 		if (s[x] == '\0')
 		{
-			_putchar('\n');
 			break;
 		}
 		y = *s - 1;
