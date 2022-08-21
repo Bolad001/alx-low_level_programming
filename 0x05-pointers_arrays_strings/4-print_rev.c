@@ -16,7 +16,7 @@ void print_rev(char *s)
 		{
 			break;
 		}
-		y = s[x] - 1;
+		y = s - 1;
 
 		while (y >= 0)
 		{
