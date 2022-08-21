@@ -10,13 +10,16 @@ void print_rev(char *s)
 {
 	int x, y = 0;
 
-	for (x = 0; x >= 0; x++)
+	for (y = 0; y >= 0; y++)
 	{
-		if (s[x] == '\0')
+		if (s[y] == '\0')
 		{
 			_putchar('\n');
+			
+			break;
 		}
 		for (y = x - 1; y >= 0; y--)
+
 			_putchar(s[y]);
 		_putchar('\n');
 	}
