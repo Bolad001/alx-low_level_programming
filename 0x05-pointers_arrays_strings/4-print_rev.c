@@ -15,7 +15,6 @@ void print_rev(char *s)
 		if (s[x] == '\0')
 		{
 			_putchar('\n');
-			break;
 		}
 		for (y = x - 1; y >= 0; y--)
 			_putchar(s[y]);
