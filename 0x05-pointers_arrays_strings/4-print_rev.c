@@ -10,17 +10,21 @@ void print_rev(char *s)
 {
 	int x, y = 0;
 
-	for (y = 0; y >= 0; y++)
+	for (x = 0; x >= 0; x++)
 	{
-		if (s[y] == '\0')
+		if (s[x] == '\0')
 		{
 			_putchar('\n');
-			
 			break;
 		}
-		for (y = x - 1; y >= 0; y--)
+		y = x - 1;
 
+		while (y >= 0)
+		{
 			_putchar(s[y]);
+
+			y--;
+		}
 		_putchar('\n');
 	}
 
