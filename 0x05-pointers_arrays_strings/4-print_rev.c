@@ -16,12 +16,11 @@ void print_rev(char *s)
 		{
 			break;
 		}
-
-		for (x--; x >= 0; x--)
-
-			_putchar(s[x]);
-
-		_putchar('\n');
 	}
+	for (x--; x >= 0; x--)
+
+		_putchar(s[x]);
+
+	_putchar('\n');
 
 }
