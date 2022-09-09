@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-char *_strstr(char *haystack, char *needle)
+char *_strcpy(char *dest, char *src)
 {
 	return (0);
 }
+

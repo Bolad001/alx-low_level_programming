@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-char *_strstr(char *haystack, char *needle)
+int _strlen(char *s)
 {
 	return (0);
 }
