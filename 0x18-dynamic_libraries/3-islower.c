@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _strlen(char *s)
+int _islower(int c)
 {
 	return (0);
 }

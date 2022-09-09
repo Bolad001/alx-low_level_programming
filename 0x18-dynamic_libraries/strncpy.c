@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int _atoi(char *s)
+char *_strncpy(char *dest, char *src, int n)
 {
 	return (0);
 }

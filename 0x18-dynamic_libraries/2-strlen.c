@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 
-int _putchar(char c)
+int _strlen(char *s)
 {
 	return (0);
 }
-
 
